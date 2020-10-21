@@ -32,6 +32,7 @@ cat bash2.txt | awk '{print prev-$1 ;prev=$1}' | sort | uniq -c | sed -e 's/^ */
 
 Results
 
+bash1_subtraction.txt|bash2_subtraction.txt|python_subtraction.txt
 freq|number|freq|number|freq|number
 ----|------|----|------|----|------
 4725|-2726|4900|-2726|4|-1322
