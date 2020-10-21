@@ -2,8 +2,8 @@
 
 I generated three sets of random numbers using: MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports, 2,5 GHz Dual Core i7). First two sets were generated using commands:
 ```bash
-watch -c 'echo $RANDOM >> bash1.txt';
-watch -c 'echo $RANDOM >> bash2.txt';
+watch -c 'echo $RANDOM >> bash1.txt'
+watch -c 'echo $RANDOM >> bash2.txt'
 ```
 There were generated parallel, in two separate tmux sessions.
 
@@ -58,3 +58,6 @@ freq|number|freq|number|freq|number
 48|-4543|25|29134|3|-3041
 31|-20473|24|-1817|3|-3215
 21|11386|19|10478|3|-326
+
+
+#WTF?
