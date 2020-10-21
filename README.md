@@ -1,0 +1,2 @@
+# randombash
+Bash RNG glitch
