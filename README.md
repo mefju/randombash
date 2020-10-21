@@ -30,11 +30,14 @@ cat bash1.txt | awk '{print prev-$1 ;prev=$1}' | sort | uniq -c | sed -e 's/^ */
 cat bash2.txt | awk '{print prev-$1 ;prev=$1}' | sort | uniq -c | sed -e 's/^ *//' | sort -t ' '  -k 1rn,2rn > bash2_subtraction.txt
 ```
 
-Results
+Results:
 
-bash1_subtraction.txt|bash2_subtraction.txt|python_subtraction.txt
-----|----------------|---------------------|----------------------
+* Columns 1-2:bash1_subtraction.txt
+* Columns 3-4:bash2_subtraction.txt
+* Columns 5-6python_subtraction.txt
+
 freq|number|freq|number|freq|number
+----|------|----|------|----|--------
 4725|-2726|4900|-2726|4|-1322
 922|-2725|951|-2725|4|-9356
 802|13204|855|13204|4|9461
